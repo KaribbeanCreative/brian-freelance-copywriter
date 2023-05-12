@@ -1,0 +1,2 @@
+font texte : Merriweather
+font titre: Josefin Sans

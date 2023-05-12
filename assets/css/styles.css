@@ -1,0 +1,261 @@
+/* 
+    Author : Karibbean Karma
+    Date : 12.05.2023
+    Version : 1.0
+*/
+
+/*=====================================================*/
+/* G L O B A L */
+/*=====================================================*/
+
+/*---------------------------------------> Import font */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Merriweather:wght@300;400;700;900&display=swap');
+
+/*------------------------------------------> Reset CSS*/
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+html {
+    font-size: 30px;
+}
+
+body {
+    font-family: "Merriweather", serif;
+}
+
+h1 {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 1.8rem;
+}
+
+h2 {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 1.3rem;
+    color: #141414;
+}
+
+h3 {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 0.9rem;
+    color: #000;
+}
+
+p {
+    font-size: 0.7rem;
+    color: #141414;
+}
+
+
+/*=====================================================*/
+/* H E A D E R */
+/*=====================================================*/
+.container {
+    max-width: 1090px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left:15px;
+    padding-right:15px;
+}
+
+/* .sticky-bar {
+    position: fixed;
+    z-index: 1;
+} */
+
+.items {
+    display: flex;
+    align-items: center;
+    font-size: 0.7rem;
+}
+
+.navigation {
+    list-style: none;
+    font-family: "Josefin Sans", sans-serif;
+    max-width: 1090;
+    min-height: 70px;
+    margin-left: auto;
+    align-items: center;
+    display: flex;
+}
+
+.item {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+li > a {
+    text-decoration: none;
+    color: #000;
+}
+
+li > a:hover {
+    color: #ee9b00;
+    font-size: 0.9rem;
+    transition: background-color .4s;
+}
+
+
+/*=====================================================*/
+/* H E R O   S E C T I O N */
+/*=====================================================*/
+.hero-section {
+    width: 100%;
+    height: 95vh;
+    background: url(../images/hero.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.container h1 {
+    max-width: 500px;
+    margin-left: auto;
+    font-size: 1.8rem;
+    font-weight: 500;
+    padding-top: 350px;
+    color: #fff;
+}
+
+.container .min-width {
+    max-width: 500px;
+    font-weight: 200;
+    color: #fff;
+    font-size: 0.6rem;
+    line-height: 30px;
+    margin-left: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.buttons {
+    max-width: 500px;
+    margin-left: auto;
+    display: flex;
+}
+
+.button-talk, .button-learn {
+    max-width: 500px;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 0.7rem;
+    padding: 15px 30px 15px 30px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.button-talk {
+    border: 0;
+    border-radius: 8px;
+    color: #000;
+    background-color: #fff;
+    margin-right: 0px;
+}
+.button-talk:hover {
+    background-color: #ee9b00;
+}
+.button-talk > a {
+    color: #000;
+    text-decoration: none;
+}
+.button-talk a:hover {
+    color: #fff;
+    margin-right: 0px;
+}
+
+.button-learn {
+    border: 0;
+    border-radius: 8px;
+    color: #fff;
+    background-color: #000;
+}
+.button-learn:hover {
+    border-color: #ee9b00;
+}
+.button-learn > a {
+    color: #fff;
+    text-decoration: none;
+}
+.button-learn a:hover {
+    color: #ee9b00;
+    margin-right: 0px;
+}
+
+
+/*=====================================================*/
+/* H E R O   S E C T I O N */
+/*=====================================================*/
+.section2 {
+    width: 100%;
+    margin-top: 50px;
+}
+
+/*--------------------------------------------> Properties h2 section 2*/
+.container > h2 {
+    margin-top: 100px;
+    text-align: center;
+    color: #000;
+    font-weight: 600;
+}
+
+/*--------------------------------------------> Properties p section 2*/
+.container > p {
+    margin-top: 50px;
+    color: #131313;
+    font-weight: 400;
+    text-align: center;
+}
+
+/*--------------------------------------------> Section 2 */
+.flex1 {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: space-between;
+    flex-wrap: wrap;
+}
+
+/*--------------------------------------------> Properties colonnes section 2*/
+.columns {
+    margin-top: 50px;
+    width: 330px;
+    height: 260px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 15px 50px #7e7d7d4d;
+}
+
+/*--------------------------------------------> Properties h3 colonne*/
+.columns > h3 {
+    margin-bottom: 15px;
+}
+
+/*--------------------------------------------> Properties p colonne*/
+.columns > p {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 0.6rem;
+}
+
+/*--------------------------------------------> Bouton Read more*/
+.button3 {
+    max-width: 120px;
+    height: 40px;
+    border-radius: 8px;
+    padding: 10px 20px 10px 20px;
+    margin-top: 10px;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 500;
+    background: #000;
+    font-size: 0.5rem;
+}
+.button3 > a {
+    color: #fff;
+    text-decoration: none;
+}
+.button3:hover {
+    background: #ee9b00;
+    border: 0;
+}
