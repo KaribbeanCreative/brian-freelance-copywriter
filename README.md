@@ -18,23 +18,13 @@ See u soon ✌🏽
 
 ## 🔗 **Links**
 
-- Live Site URL : [QR Code Component](https://dopekaribbean-qr-code.netlify.app)
-[] Rendre le menu fixe lors du défilement de la page ;
-
-
-
-
-
-
-
-
-
-
+- Live Site URL : [Brian Copywriter](https://brian-copywriter.netlify.app/)
 
 
 ## 🧠 **What I learned**
 
 * Tried to do **clean code**
 * Used HTML5 **semantic elements**
-* Used CSS3 **propertises**
+* Used CSS3 **propertises**, **Flexbox**
 * Used **Git** and **GitHub** for project management
+* Used **Netlify** for site deployment
