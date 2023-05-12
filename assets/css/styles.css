@@ -11,7 +11,7 @@
 /*---------------------------------------> Import font */
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Merriweather:wght@300;400;700;900&display=swap');
 
-/*------------------------------------------> Reset CSS*/
+/*---------------------------------------> Reset CSS*/
 *, ::before, ::after {
     box-sizing: border-box;
     margin: 0;
@@ -119,9 +119,9 @@ li > a:hover {
     color: #fff;
 }
 
-.min-width {
+.subtitle {
     max-width: 500px;
-    font-size: 0.6rem;
+    font-size: 0.5rem;
     font-weight: 200;
     color: #fff;
     line-height: 30px;
@@ -130,7 +130,7 @@ li > a:hover {
 }
 
 .buttons {
-    max-width: 500px;
+    max-width: 510px;
     margin-left: auto;
     display: flex;
 }
@@ -185,9 +185,9 @@ li > a:hover {
 
 
 /*=====================================================*/
-/* H E R O   S E C T I O N */
+/* H O M E   S E C O N D   S E C T I O N */
 /*=====================================================*/
-/* .home-section-two {
+.home-section-two {
     width: 100%;
     margin-top: 50px;
 }
@@ -199,7 +199,7 @@ li > a:hover {
     font-weight: 600;
 }
 
-.container > p {
+.description {
     margin-top: 50px;
     color: #131313;
     font-weight: 400;
