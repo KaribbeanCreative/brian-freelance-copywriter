@@ -188,11 +188,11 @@ li > a:hover {
 /* H O M E   S E C O N D   S E C T I O N */
 /*=====================================================*/
 .home-section-two {
-    width: 100%;
-    margin-top: 50px;
+    width: 80%;
+    margin: 50px auto;
 }
 
-.container > h2 {
+.second-container > h2 {
     margin-top: 100px;
     text-align: center;
     color: #000;
@@ -201,12 +201,14 @@ li > a:hover {
 
 .description {
     margin-top: 50px;
-    color: #131313;
+    color: #141414;
+    font-size: 0.65rem;
+    line-height: 40px;
     font-weight: 400;
     text-align: center;
 }
 
-.flex1 {
+.flex-one {
     margin-top: 50px;
     display: flex;
     justify-content: space-evenly;
@@ -215,10 +217,10 @@ li > a:hover {
 }
 
 .columns {
-    margin-top: 50px;
-    width: 330px;
-    height: 260px;
-    padding: 20px;
+    margin: 50px auto;
+    width: 350px;
+    height: 280px;
+    padding: 30px;
     background-color: white;
     border-radius: 10px;
     box-shadow: 0 15px 50px #7e7d7d4d;
@@ -234,7 +236,7 @@ li > a:hover {
     font-size: 0.6rem;
 }
 
-.button3 {
+.button-read {
     max-width: 120px;
     height: 40px;
     border-radius: 8px;
@@ -245,11 +247,11 @@ li > a:hover {
     background: #000;
     font-size: 0.5rem;
 }
-.button3 > a {
+.button-read > a {
     color: #fff;
     text-decoration: none;
 }
-.button3:hover {
-    background: #ee9b00;
+.button-read:hover {
+    background: #4a7963;
     border: 0;
-} */
+}
