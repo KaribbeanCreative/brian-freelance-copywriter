@@ -36,6 +36,7 @@ h2 {
     font-family: "Josefin Sans", sans-serif;
     font-size: 1.3rem;
     color: #141414;
+    text-align: center;
 }
 
 h3 {
@@ -89,7 +90,7 @@ p {
 
 li > a {
     text-decoration: none;
-    color: #000;
+    color: #141414;
 }
 
 li > a:hover {
@@ -115,6 +116,7 @@ li > a:hover {
     margin-left: auto;
     font-size: 1.8rem;
     font-weight: 500;
+    line-height: 80px;
     padding-top: 280px;
     color: #fff;
 }
@@ -195,7 +197,6 @@ li > a:hover {
 .second-container > h2 {
     margin-top: 100px;
     text-align: center;
-    color: #000;
     font-weight: 600;
 }
 
@@ -254,4 +255,116 @@ li > a:hover {
 .button-read:hover {
     background: #4a7963;
     border: 0;
+}
+
+
+/*=====================================================*/
+/* H O M E   T H I R D   S E C T I O N */
+/*=====================================================*/
+.home-section-three {
+    width: 100%;
+    margin-top: 50px;
+    padding: 80px;
+    background-color: #141414;
+}
+
+.home-section-three .container > h2 {
+    text-align: center;
+    color: #fff;
+    font-weight: 600;
+}
+
+.home-section-three .container > p {
+    margin-top: 30px;
+    color: #fff;
+    font-weight: 300;
+    line-height: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.button-talk-to {
+    border-radius: 8px;
+    padding: 15px 30px;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 500;
+    background: #000;
+    font-size: 0.6rem;
+    color: #000;
+    background-color: #fff;
+    display: block;
+    margin: 0 auto;
+}
+.button-talk-to > a {
+    color: #141414;
+    text-decoration: none;
+}
+.button-talk-to > a:hover {
+    color: #fff;
+}
+.button-talk-to:hover {
+    background-color: #4a7963;
+}
+
+
+/*=====================================================*/
+/* H O M E   F O U R   S E C T I O N */
+/*=====================================================*/
+.home-section-four {
+    margin-top: 100px;
+}
+
+.flex-two {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+
+.flex-two img {
+    width: 300px;
+    height: auto;
+}
+
+.flex-two > .columnFlex {
+    margin-top: 30px;
+    width: 330px;
+    height: auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 15px 50px #7e7d7d4d;
+}
+
+.flex-two .columnFlex > h3 {
+    margin: 10px 0 10px 0;
+    text-align: center;
+}
+
+.columnFlex > p {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 0.6rem;
+    text-align: center;
+}
+
+
+/*=====================================================*/
+/* F O O T E R */
+/*=====================================================*/
+.footer {
+    width: 100%;
+    height: 6vh;
+    background-color: #141414;
+    color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 00.5rem;
+    padding-left: 30px;
+    padding-right: 30px;
 }
