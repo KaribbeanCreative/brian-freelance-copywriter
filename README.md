@@ -63,7 +63,7 @@ Users should be able to :
 
 ## 📦 Useful resources
 
-- 
+- [Flexbox Zombies](https://mastery.games/flexboxzombies/)
 
 
 
