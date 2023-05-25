@@ -2,11 +2,6 @@
 
 ![Case Study](assets/design/readmePix.png)
 
-This is my first Frontend Mentor challenge 😀.<br/>
-This is my solution to the [QR code component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H). 
-
-[Frontend Mentor](https://www.frontendmentor.io) challenges help improve coding skills by building realistic projects.
-
 
 
 ## Table of contents
@@ -17,6 +12,7 @@ This is my solution to the [QR code component challenge on Frontend Mentor](http
 - [🧠 What I learned](#what-i-learned)
 - [📦 Useful resources](#useful-resources)
 - [😎 Author](#author)
+
 
 
 ## 🗺️ The challenge
