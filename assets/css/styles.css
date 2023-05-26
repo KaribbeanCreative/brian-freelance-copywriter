@@ -54,38 +54,68 @@ p {
 /*=====================================================*/
 /* H E A D E R */
 /*=====================================================*/
-.container {
-    max-width: 1090px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left:15px;
-    padding-right:15px;
-}
-
-/* .sticky-bar {
+#navbar {
+    width: 100%;
+    height: 100px;
+    background-color: red;
     position: fixed;
     z-index: 1;
-} */
+    font-size: 0.9rem;
+}
 
-.items {
+.container {
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    font-size: 0.7rem;
+    min-height: 90px;
+}
+
+#logo {
+
 }
 
 .navigation {
     list-style: none;
     font-family: "Josefin Sans", sans-serif;
-    max-width: 1090;
-    min-height: 70px;
-    margin-left: auto;
-    align-items: center;
     display: flex;
+
+
+
 }
 
 .item {
-    padding-left: 20px;
-    padding-right: 20px;
+    padding: 0 15px;
+    /* padding-left: 20px;
+    padding-right: 20px; */
+
+}
+
+.item-home{
+
+}
+.item-work {
+
+}
+
+.item-testimonial{
+
+}
+.item-contact {
+
+}
+
+
+
+/*.container {
+    
+} */
+
+
+/* 
+
+
+.item {
+
 }
 
 li > a {
@@ -98,6 +128,31 @@ li > a:hover {
     font-size: 0.9rem;
     transition: background-color .4s;
 }
+
+
+
+
+ 
+nav .main_pages 
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+ 
+nav .main_pages a 
+{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+*/
+
 
 
 /*=====================================================*/
